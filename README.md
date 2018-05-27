@@ -26,7 +26,11 @@ Yerel makine kurularak projeye başlanmış, veritabanı için phpMyAdmin ile ç
 
  Proje erişim linkleri
 
-FRONTEND http://portal.kouosl/faq
+FRONTEND http://portal.kouosl/faq/faq/index
 BACKEND http://portal.kouosl/admin/faq/faq
+SSS Oluşturmak için http://portal.kouosl/admin/faq/faq/create
+SSS izlemek için http://portal.kouosl/admin/faq/faq/view?id=1
+SSS Düzenlemek için http://portal.kouosl/admin/faq/faq/update?id=1
+Linklerinden ulaşabilirsiniz . 
 
-sss
+Mustafa Dinç 2018 Sıkça Sorulan Sorular 
