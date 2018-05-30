@@ -15,6 +15,18 @@ ardından "require" kısmına ise
 eklenerek kurulum sağlanabilir.
 
 
+Eklediğiniz satırın son maddesinin virgül ile bitmemesine dikkat edin
+
+(Migration) Veritabanı göç işlemi için proje dizininde komut satırı açarak php yii migrate --migrationPath=@vendor/kouosl/faq/migrations --interactive=0 komutunu çalıştırın.
+
+Modül uyumluluğu için \portal\backend\config\main.php ve \portal\frontend\config\main.php içerisinde modules bloğuna şu satırı ekleyin:
+
+'notification' => [ 'class' => 'kouosl\faq\Module' ]
+
+/portal altında komut satırında composer update ile modülü bütünleştirin.
+
+Bütün işlemleri tamamladıktan sonra http://portal.kouosl/admin/faq/bildirim/index url ile yii2 modülüne erişim sağlanabilir.
+
 
 #faq
 
